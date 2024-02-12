@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    height: 55px;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+}
+
+.nav--logo{
+    height:29px;
+    width:29px;
+}
+
+.nav--text{
+    color:white;
+    font-weight: medium;
+    font-size: 18px;
+}
+
+
+
+.card {
+ width:1000px;
+ display: flex;
+ padding:60px 40px;
+ justify-content: center;
+ align-items: center; 
+ margin: auto;
+}
+
+.card--compo{
+    display: flex;
+    flex-direction: column;
+}
+
+.card--stats{
+    display: flex;
+    gap:15px;
+    margin-bottom: 15px;
+}
+
+.card--image{
+    margin-right:2em;
+    height:16em;
+}
+
+.card--text{
+    margin-bottom: 20px;
+}
+
+.card--link{
+    color:rgb(158, 158, 158)
+}
+
+.card--date{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card--desc{
+    color: rgb(42, 42, 42);
+    font-weight: regular;
+    width:530px;
+}
